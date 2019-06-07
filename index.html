@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="Stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
     <header>
         <div class="navegacao">
@@ -24,14 +25,24 @@
     <main>
         <div class="primeiroContainer">
             <div class="primeiroContainer__wrapper">
-                <h3 class="primeiroContainer__titulo">CURSOS EM DESTAQUE</h3>
-                <p class="primeiroContainer__conteudo">Letramento Matemático no Ensino Infantil</p>
-                <p>ANA FLAVIA ALONÇO CASTANHO</p>
-                <p>OFERECIDO POR</p>
-                <!-- <img class="img" src="img/Bitmap.png" alt="Logo do Itaú"> -->
-                <button>
+
+                <div class="primeiroContainer__title">
+                    <h3>CURSOS EM DESTAQUE</h3>
+                </div>
+
+                <div class="primeiroContainer__conteudo">
+                    <p>Letramento Matemático no Ensino Infantil</p>
+                    <p class="conteudo__professor">ANA FLAVIA ALONÇO CASTANHO</p>
+                </div>
+                <div class="primeiroContainer__rodape">
+                    <p>OFERECIDO POR</p>
+                    <img class="img" src="img/Bitmap.png" alt="Logo do Itaú">
+                </div>
+
+                <button class="send_form">
                     <p>QUERO ASSISTIR ESSE</p>
                 </button>
+
             </div>
             <div class="curso__destaque">
                 <img class="img" src="img/Foto-2.png" alt="Mulher com Ana Flavia Alonço Castanho">
@@ -41,25 +52,28 @@
 
         <div class="segundoContainer">
             <div class="segundoContainer__wrapper">
-             
+
                 <h3 class="segundoContainer__titulo">Fazer uma frase de maior impacto</h3>
-                <p>Feitos por professores com experiência em sala de aula, são curtos para encaixar na sua rotina, 
+                <p>Feitos por professores com experiência em sala de aula, são curtos para encaixar na sua rotina,
                     totalmente digitais para você fazer quando e onde quiser e ainda oferecem certificado!</p>
             </div>
-<div class="segundoContainer__ladoDireito">
-            <div class="segundoContainer__ilustra">
-                <img class="img_teste" src="img/Ilustra.svg" alt="Ilustração de um homem em frente à lousa">
-            
-            <div class="segundoContainer__conteudo">
-            <p>Acesse todos os cursos por <br /><b> apenas R$5 ao mês</b></p>
+            <div class="segundoContainer__ladoDireito">
+                <div class="segundoContainer__ilustra">
+                    <img class="img_teste" src="img/Ilustra.svg" alt="Ilustração de um homem em frente à lousa">
+
+                    <div class="segundoContainer__conteudo">
+                        <p>Acesse todos os cursos por <br /><b> apenas R$5 ao mês</b></p>
                         <button class="botaoVermais">
                             <p>VER MAIS</p>
-                        </button></div>
+                        </button>
                     </div>
-                    </div>
+                </div>
+            </div>
         </div>
 
-
+        <div class="subtitulo__cursos">
+            <p><b>MEUS CURSOS</b></p>
+        </div>
         <div class="terceiroContainer">
             <div class="terceiroContainer__wrapper">
 
@@ -67,7 +81,11 @@
                     <img class="img" src="img/Foto.png" alt="Imagem de capa do card">
                     <div class="card-body">
                         <h5 class="card-title">Geografia e Matemática: Um projeto interdisciplinar sobre</h5>
-                        <a href="#" class="btn btn-primary">CONTINUAR CURSO</a>
+
+                        <button class="botao-primary">
+                            <p>CONTINUAR CURSO</p>
+                        </button>
+
                     </div>
                 </div>
 
@@ -75,7 +93,9 @@
                     <img class="img" src="img/Foto-1.png" alt="Imagem de capa do card">
                     <div class="card-body">
                         <h5 class="card-title">Geografia e Matemática: Um projeto interdisciplinar sobre</h5>
-                        <a href="#" class="btn btn-primary">VER CURSO</a>
+                        <button class="botao-primary">
+                            <p>VER CURSO</p>
+                        </button>
                     </div>
                 </div>
 
@@ -83,14 +103,18 @@
                     <img class="card-img-top" src="img/Foto-1.png" alt="Imagem de capa do card">
                     <div class="card-body">
                         <h5 class="card-title">Geografia e Matemática: Um projeto interdisciplinar sobre</h5>
-                        <a href="#" class="btn">VER CURSO</a>
+                        <button class="botao-primary">
+                            <p>VER CURSO</p>
+                        </button>
                     </div>
                 </div>
 
                 <div class="card4" style="width: 265px; height: 387px;">
                     <div class="card-body">
                         <h5 class="card-title">Continue a qualificar sua formação com os cursos da Nova Escola!</h5>
-                        <a href="#" class="btn btn-primary">OUTROS CURSOS</a>
+                        <button class="botao-sec">
+                            <p>OUTROS CURSOS</p>
+                        </button>
                     </div>
                 </div>
 
@@ -101,51 +125,52 @@
 
 
 
-            <div class="quartoContainer">
-                <div class="quartoContainer">
 
 
-                    <h4 class="quartoContainer__título">MAIS CURSOS</h4>
-                    <div class="quartoContainer__wrapper">
 
-                        <div class="card1" style="width: 18rem;">
-                            <img class="img" src="img/Foto-1.png" alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">Geografia e Matemática: Um projeto interdisciplinar sobre</h5>
-                                <a href="#" class="btn btn-primary">Visitar</a>
-                            </div>
-                        </div>
+            <div class="quartoContainer__titulo">
+                <h3><b>MAIS CURSOS</b></h3>
+            </div>
+            <div class="quartoContainer__wrapper">
 
-                        <div class="card2" style="width: 18rem;">
-                            <img class="img" src="img/Foto-1.png" alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">Geografia e Matemática: Um projeto interdisciplinar sobre</h5>
-                                <a href="#" class="btn btn-primary">Visitar</a>
-                            </div>
-                        </div>
-
-                        <div class="card3" style="width: 18rem;">
-                            <img class="card-img-top" src="img/Foto-1.png" alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">Geografia e Matemática: Um projeto interdisciplinar sobre</h5>
-                                <a href="#" class="btn btn-primary">Visitar</a>
-                            </div>
-                        </div>
-
+                <div class="card11" style="width: 265px; height: 280px;">
+                    <img class="img" src="img/Foto-1.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-subtitle">Educação Infantil</p>
+                        <h5 class="card-title">Letramento Matemático na Educação Infantil</h5>
 
                     </div>
-                    <div class="quartoContainer__botao">
-                        <button class="quartoContainer__ultimo">
-                            <p>CARREGAR MAIS</p>
-                        </button>
+                </div>
+
+                <div class="card22" style="width: 265px; height: 280px;">
+                    <img class="img" src="img/Foto-1.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-subtitle">Educação Infantil</p>
+                        <h5 class="card-title">Letramento Matemático na Educação Infantil</h5>
                     </div>
+                </div>
+
+                <div class="card33" style="width: 265px; height: 280px;">
+                    <img class="card-img-top" src="img/Foto-1.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-subtitle">Educação Infantil</p>
+                        <h5 class="card-title">Letramento Matemático na Educação Infantil</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quartoContainer__botao">
+                <button class="quartoContainer__ultimo">
+                    <p>CARREGAR MAIS</p>
+                </button>
+            </div>
     </main>
-
-
-
-    <footer class="rodape">
-        <p>Associação Nova Escola 2019 - Todos os direitos reservados</p>
-    </footer>
+    <div class="rodape__pagina">
+        <footer class="rodape">
+            <p>Associação Nova Escola 2019 - Todos os direitos reservados</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
